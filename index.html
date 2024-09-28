@@ -1,29 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Search</title>
         <style>
-            #body, input, button {
-                font-size: 14px;
-                font-family: Arial, sans-serif;
-            }
+           body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    text-align: right;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.search-container {
+    margin-top: 100px;
+}
+
+.search-bar{
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 1px solid #dfe1e5;
+}
+
+.search-button{
+    height: 40px;
+    width: 200px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.lucky-button {
+    height: 40px;
+    width: 200px;
+    background-color: #f8f9fa;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
 
 
         </style>
     </head>
     <body>
         
-        <div style="background-color: rgb(32, 33, 36); --darkreader-inline-bgcolor: #1a1c1d;">
-            <ol>
-                <li><a href="index2.html"> Google Search image</a></li>
-                <li><a href="index3.html"> Google advanced Search </a></li>
-            </ol>
+        <div class="links">
+                <a href="index2.html"> Google Search image</a>
+                <a href="index3.html"> Google advanced Search </a>
         </div>
+
         <h1>Google Search</h1>
-        <form class="gs" action="https://www.google.com/search">
-            <input class="gs" type="text" name="q">
-            <input type="submit" value="Google Search">
+        <form class="o3j99 ikrT4e om7nvf" action="https://www.google.com/search">
+            <input class="gs" style="padding-block: center;" type="text" name="q" class="search-bar"><br>
+            <input type="submit" value="Google Search" class="search-button" >
+            <input type="submit" value="I'm Feeling Lucky" name="btnI" class="lucky-button">
         </form>
-        <button>I’m Feeling Lucky</button>
     </body>
 </htmlLL
